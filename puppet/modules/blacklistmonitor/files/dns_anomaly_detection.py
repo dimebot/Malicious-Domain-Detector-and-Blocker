@@ -32,7 +32,7 @@ DETECT_LOG = "/var/log/dns_anomaly_detector.log"
 DEFAULT_VT_CACHE = "/var/lib/dns_vt_cache.json"   # needs dir writable by root
 
 # --------- HARDCODE YOUR VIRUSTOTAL API KEY HERE ----------
-VT_API_KEY = "2fc41ca61ac373fbaefe2d3d646a9f9a90016a744cfa91981b8647715d51e6b6"
+VT_API_KEY = "{api-key}"
 # ---------------------------------------------------------
 
 QUERY_RE = re.compile(r'query\[(?:[A-Z0-9_]+)\]\s+([^\s;]+)')
