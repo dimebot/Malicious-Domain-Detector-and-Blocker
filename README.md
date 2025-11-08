@@ -1,6 +1,6 @@
 
 ---
-# DNS-Based Threat Detection & Auto-Blocking System
+# Malicious Domain Detector and Blocker
 
 This project provides an automated DNS security solution that detects malicious domain queries, blocks them in real time, deploys the setup across client machines using Puppet, and monitors system health using Nagios.
 
